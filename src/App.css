@@ -1,3 +1,8 @@
+
+body {
+  font-family: 'Ropa Sans', sans-serif;
+  font: oblique;
+}
 .App {
   text-align: center;
 }
@@ -12,6 +17,30 @@
       REUSABLE COMPNENTS
 */
 
+
+.main-nav-container {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  backdrop-filter: blur(3px);
+  box-shadow: ;
+}
+.main-nav-container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-nav-container li {
+  list-style: none;
+}
+.main-nav-container a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 2px rgba(255, 68, 0, 0.753);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 .page-slider {
   width: 90%;
   margin: 0 auto;
@@ -23,7 +52,11 @@
 }
 
 
-
+.page-header {
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+}
 /* 
       CHARACTER COMPONENT
 */
@@ -45,6 +78,8 @@
 }
 .character-container a {
   text-decoration: none;
+  font-family: 'Ropa Sans', sans-serif;
+
 }
 .character-header {
   font-size: 1.5rem;
@@ -80,6 +115,7 @@
 .character-stat p {
   color: #fff;
   font-size: 0.7rem;
+  font-family: monospace;
 }
 /* 
       FILM COMPONENT
